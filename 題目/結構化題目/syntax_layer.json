@@ -1,0 +1,473 @@
+{
+  "Q1": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "規則題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "規則題",
+      "weights": {
+        "behavioral": 0.6,
+        "syntax": 0.4,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 6,
+      "criteria": {
+        "①": "try-catch語句語法正確（try { } catch { }）",
+        "②": "TextBox.Text屬性存取語法正確",
+        "③": "int.Parse()或Convert.ToInt32()方法呼叫語法正確",
+        "④": "Label.Text屬性賦值語法正確",
+        "⑤": "算術運算符（+）和運算式語法正確",
+        "⑥": "異常類型宣告和變數使用語法正確"
+      }
+    },
+    "keywords": [
+      "try-catch",
+      "異常處理",
+      "TextBox.Text",
+      "Label.Text",
+      "value1TextBox",
+      "value2TextBox",
+      "sumLabel",
+      "int.Parse",
+      "Convert.ToInt32",
+      "TryParse",
+      "相加",
+      "整數",
+      "計算",
+      "顯示結果",
+      "控制項",
+      "Exception",
+      "catch",
+      "控制項屬性",
+      "輸入驗證"
+    ]
+  },
+  "Q2": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 5,
+      "criteria": {
+        "①": "條件判斷語句（if-else或switch）語法正確",
+        "②": "邏輯運算符（&&、||）使用語法正確",
+        "③": "數值比較運算符（<、>、==、<=、>=）語法正確",
+        "④": "字符串輸出或存儲語法正確",
+        "⑤": "整數輸入讀取語法正確"
+      }
+    },
+    "keywords": [
+      "星座",
+      "月份",
+      "日期",
+      "if-else",
+      "switch",
+      "&&",
+      "||",
+      "Aries",
+      "Taurus",
+      "Gemini",
+      "Cancer",
+      "Leo",
+      "Virgo",
+      "Libra",
+      "Scorpio",
+      "Sagittarius",
+      "Capricorn",
+      "Aquarius",
+      "Pisces",
+      "牡羊座",
+      "金牛座",
+      "雙子座",
+      "巨蟹座",
+      "獅子座",
+      "處女座",
+      "天秤座",
+      "天蠍座",
+      "射手座",
+      "摩羯座",
+      "水瓶座",
+      "雙魚座",
+      "邊界判斷",
+      "日期範圍",
+      "跨年邊界",
+      "英文名稱",
+      "輸入輸出"
+    ]
+  },
+  "Q3": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "規則題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "規則題",
+      "weights": {
+        "behavioral": 0.6,
+        "syntax": 0.4,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 6,
+      "criteria": {
+        "①": "if-else語句語法正確（if (...) { } else { }）",
+        "②": "double.TryParse()方法呼叫語法正確，參數正確",
+        "③": "out關鍵字用法語法正確",
+        "④": "TextBox.Text屬性存取語法正確",
+        "⑤": "MessageBox.Show()方法呼叫語法正確",
+        "⑥": "字符串和變數的組合/連接語法正確"
+      }
+    },
+    "keywords": [
+      "TryParse",
+      "double",
+      "類型轉換",
+      "if-else",
+      "tempTextBox",
+      "temperature",
+      "MessageBox.Show",
+      "Text屬性",
+      "out",
+      "布林值",
+      "true",
+      "false",
+      "轉換成功",
+      "轉換失敗",
+      "錯誤訊息",
+      "訊息框",
+      "double.TryParse",
+      "int.TryParse",
+      "decimal.TryParse"
+    ]
+  },
+  "Q4": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 4,
+      "criteria": {
+        "①": "DateTime結構體的使用和日期物件建立語法正確",
+        "②": "TimeSpan或日期相減操作語法正確",
+        "③": "整數輸入和輸出語法正確",
+        "④": "迴圈（處理多筆測資）語法正確"
+      }
+    },
+    "keywords": [
+      "日期",
+      "天數差",
+      "計算",
+      "年月日",
+      "DateTime",
+      "TimeSpan",
+      "日期相減",
+      "整數輸入",
+      "輸出",
+      "2011",
+      "10",
+      "19",
+      "月份",
+      "日期格式",
+      "日期計算",
+      "天數計算",
+      "多筆測資"
+    ]
+  },
+  "Q5": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "規則題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "規則題",
+      "weights": {
+        "behavioral": 0.6,
+        "syntax": 0.4,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 6,
+      "criteria": {
+        "①": "while迴圈語法正確（while (...) { }）",
+        "②": "StreamReader物件建立和使用語法正確",
+        "③": "ReadLine()方法呼叫和返回值檢查語法正確",
+        "④": "ListBox.Items.Add()方法呼叫語法正確",
+        "⑤": "Label.Text屬性賦值語法正確",
+        "⑥": "檔案關閉（Close()或using）語法正確"
+      }
+    },
+    "keywords": [
+      "while迴圈",
+      "StreamReader",
+      "檔案讀取",
+      "ListBox",
+      "Label",
+      "rainfall.txt",
+      "rainfallListBox",
+      "totalRainFallLabel",
+      "降雨量",
+      "月總量",
+      "累加",
+      "ReadLine",
+      "Items.Add",
+      "檔案關閉",
+      "迴圈條件",
+      "讀取檔案",
+      "顯示內容",
+      "計算總量"
+    ]
+  },
+  "Q6": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 4,
+      "criteria": {
+        "①": "迴圈語法（for或while）正確",
+        "②": "除法運算和餘數計算（%、/）語法正確",
+        "③": "整數輸入輸出語法正確",
+        "④": "累加邏輯（+=）和變數更新語法正確"
+      }
+    },
+    "keywords": [
+      "質因數",
+      "因數分解",
+      "質數",
+      "分解",
+      "累加",
+      "整數",
+      "試除",
+      "2000000000",
+      "質因數和",
+      "6",
+      "2",
+      "3",
+      "8",
+      "2+2+2",
+      "19",
+      "32",
+      "10",
+      "質數判斷",
+      "因數計算",
+      "乘法分解",
+      "和"
+    ]
+  },
+  "Q7": {
+    "type": "問答題",
+    "points": 10,
+    "question_category": "語言題",
+    "answer_type": "文字答案",
+    "scoring_config": {
+      "question_type": "語言題",
+      "weights": {
+        "behavioral": 0,
+        "syntax": 1.0,
+        "specification": 1.0
+      }
+    },
+    "syntax_layer": {
+      "focus": "執行結果是否完全符合預期輸出？",
+      "total_criteria": 4,
+      "criteria": {
+        "①": "第一個訊息框顯示『The value of number is 99』完全相符",
+        "②": "第二個訊息框顯示『In ChangeMe, myValue is 0』完全相符",
+        "③": "第三個訊息框顯示『The value of number is 99』完全相符",
+        "④": "訊息框顯示順序、大小寫、標點、空格完全正確"
+      }
+    },
+    "keywords": [
+      "參數傳遞",
+      "值型別",
+      "int",
+      "副本",
+      "方法呼叫",
+      "MessageBox.Show",
+      "字符串連接",
+      "變數範圍",
+      "作用域",
+      "99",
+      "0",
+      "number",
+      "myValue",
+      "ChangeMe",
+      "The value of number is 99",
+      "In ChangeMe, myValue is 0",
+      "執行流程",
+      "訊息框順序",
+      "變數值改變",
+      "參數值傳遞"
+    ]
+  },
+  "Q8": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 5,
+      "criteria": {
+        "①": "Random物件建立語法正確",
+        "②": "陣列或集合的初始化和使用語法正確",
+        "③": "Random.Next()方法呼叫語法正確",
+        "④": "迴圈語法（for）正確",
+        "⑤": "輸出格式（空格分隔）語法正確"
+      }
+    },
+    "keywords": [
+      "隨機",
+      "排列",
+      "1到N",
+      "洗牌",
+      "Random",
+      "陣列",
+      "迴圈",
+      "輸出",
+      "空格分隔",
+      "3",
+      "2 1 3",
+      "N",
+      "整數序列",
+      "Fisher-Yates",
+      "隨機交換",
+      "排列組合",
+      "Random.Next",
+      "2147483647",
+      "整數輸入"
+    ]
+  },
+  "Q9": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "規則題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "規則題",
+      "weights": {
+        "behavioral": 0.6,
+        "syntax": 0.4,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 4,
+      "criteria": {
+        "①": "陣列複製相關語法正確（例如 for、Array.Copy、CopyTo、Clone 等合法寫法）",
+        "②": "陣列來源與目標的語法使用正確",
+        "③": "元素存取、參數傳遞或賦值語法正確",
+        "④": "控制流程或方法呼叫的語法正確"
+      }
+    },
+    "keywords": [
+      "陣列",
+      "複製",
+      "numberArray1",
+      "numberArray2",
+      "100",
+      "元素",
+      "迴圈",
+      "for",
+      "index",
+      "陣列存取",
+      "陣列賦值",
+      "陣列複製",
+      "[index]",
+      "i<100",
+      "i++",
+      "深度複製"
+    ]
+  },
+  "Q10": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "syntax_layer": {
+      "focus": "C#程式碼語法是否完全正確？",
+      "total_criteria": 4,
+      "criteria": {
+        "①": "string.Split()方法呼叫語法正確",
+        "②": "foreach迴圈語法正確",
+        "③": "字符串輸入讀取語法正確",
+        "④": "輸出（Console.WriteLine）語法正確"
+      }
+    },
+    "keywords": [
+      "字符串分割",
+      "Split",
+      "空格分隔",
+      "水果",
+      "輸入",
+      "輸出",
+      "每行一個",
+      "迴圈",
+      "Apple",
+      "Orange",
+      "Banana",
+      "Pineapple",
+      "n個",
+      "1到30",
+      "菜單",
+      "foreach",
+      "Console.WriteLine",
+      "字符串陣列"
+    ]
+  }
+}

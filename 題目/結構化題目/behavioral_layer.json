@@ -1,0 +1,452 @@
+{
+  "Q1": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "規則題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "規則題",
+      "weights": {
+        "behavioral": 0.6,
+        "syntax": 0.4,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "try-catch異常處理和數值計算邏輯是否正確？",
+      "total_criteria": 3,
+      "criteria": {
+        "①": "是否正確理解try-catch語句的結構和異常捕捉機制",
+        "②": "是否正確計算兩個整數之和的算術邏輯",
+        "③": "是否正確處理轉換異常和顯示相應的結果"
+      }
+    },
+    "keywords": [
+      "try-catch",
+      "異常處理",
+      "TextBox.Text",
+      "Label.Text",
+      "value1TextBox",
+      "value2TextBox",
+      "sumLabel",
+      "int.Parse",
+      "Convert.ToInt32",
+      "TryParse",
+      "相加",
+      "整數",
+      "計算",
+      "顯示結果",
+      "控制項",
+      "Exception",
+      "catch",
+      "控制項屬性",
+      "輸入驗證"
+    ]
+  },
+  "Q2": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "星座範圍判斷邏輯是否正確完整？",
+      "total_criteria": 4,
+      "criteria": {
+        "①": "是否正確理解12個星座的月日範圍判斷邏輯",
+        "②": "是否正確處理月份跨年邊界（如摩羯座12/23-1/20）",
+        "③": "是否正確處理邊界日期的判斷（包含邊界日期）",
+        "④": "是否考慮並正確實現所有12個星座的完整覆蓋"
+      }
+    },
+    "keywords": [
+      "星座",
+      "月份",
+      "日期",
+      "if-else",
+      "switch",
+      "&&",
+      "||",
+      "Aries",
+      "Taurus",
+      "Gemini",
+      "Cancer",
+      "Leo",
+      "Virgo",
+      "Libra",
+      "Scorpio",
+      "Sagittarius",
+      "Capricorn",
+      "Aquarius",
+      "Pisces",
+      "牡羊座",
+      "金牛座",
+      "雙子座",
+      "巨蟹座",
+      "獅子座",
+      "處女座",
+      "天秤座",
+      "天蠍座",
+      "射手座",
+      "摩羯座",
+      "水瓶座",
+      "雙魚座",
+      "邊界判斷",
+      "日期範圍",
+      "跨年邊界",
+      "英文名稱",
+      "輸入輸出"
+    ]
+  },
+  "Q3": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "規則題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "規則題",
+      "weights": {
+        "behavioral": 0.6,
+        "syntax": 0.4,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "類型轉換邏輯和if-else異常處理是否正確？",
+      "total_criteria": 3,
+      "criteria": {
+        "①": "是否正確理解TryParse方法的返回布林值邏輯",
+        "②": "是否正確判斷轉換成功（true）和失敗（false）的分支",
+        "③": "是否正確將轉換結果存儲在temperature變數中"
+      }
+    },
+    "keywords": [
+      "TryParse",
+      "double",
+      "類型轉換",
+      "if-else",
+      "tempTextBox",
+      "temperature",
+      "MessageBox.Show",
+      "Text屬性",
+      "out",
+      "布林值",
+      "true",
+      "false",
+      "轉換成功",
+      "轉換失敗",
+      "錯誤訊息",
+      "訊息框",
+      "double.TryParse",
+      "int.TryParse",
+      "decimal.TryParse"
+    ]
+  },
+  "Q4": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "日期計算和差值邏輯是否正確？",
+      "total_criteria": 3,
+      "criteria": {
+        "①": "是否正確理解兩個日期之間的天數計算邏輯",
+        "②": "是否正確處理日期的年月日組成部分進行計算",
+        "③": "是否正確計算結果（計算出兩日期間隔天數）"
+      }
+    },
+    "keywords": [
+      "日期",
+      "天數差",
+      "計算",
+      "年月日",
+      "DateTime",
+      "TimeSpan",
+      "日期相減",
+      "整數輸入",
+      "輸出",
+      "2011",
+      "10",
+      "19",
+      "月份",
+      "日期格式",
+      "日期計算",
+      "天數計算",
+      "多筆測資"
+    ]
+  },
+  "Q5": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "規則題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "規則題",
+      "weights": {
+        "behavioral": 0.6,
+        "syntax": 0.4,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "檔案讀取迴圈和累加邏輯是否正確？",
+      "total_criteria": 4,
+      "criteria": {
+        "①": "是否正確理解while迴圈的條件判斷（讀取檔案直到結束）",
+        "②": "是否正確逐行讀取檔案內容",
+        "③": "是否正確實現降雨數據的累加邏輯計算總量",
+        "④": "是否正確將數據新增到ListBox並計算總和"
+      }
+    },
+    "keywords": [
+      "while迴圈",
+      "StreamReader",
+      "檔案讀取",
+      "ListBox",
+      "Label",
+      "rainfall.txt",
+      "rainfallListBox",
+      "totalRainFallLabel",
+      "降雨量",
+      "月總量",
+      "累加",
+      "ReadLine",
+      "Items.Add",
+      "檔案關閉",
+      "迴圈條件",
+      "讀取檔案",
+      "顯示內容",
+      "計算總量"
+    ]
+  },
+  "Q6": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "質因數分解和累加邏輯是否正確？",
+      "total_criteria": 4,
+      "criteria": {
+        "①": "是否正確理解質因數的定義（只能被1和自身整除的因數）",
+        "②": "是否正確實現質因數分解算法（逐個試除）",
+        "③": "是否正確處理重複的質因數（如8=2×2×2都要計入）",
+        "④": "是否正確計算所有質因數的和"
+      }
+    },
+    "keywords": [
+      "質因數",
+      "因數分解",
+      "質數",
+      "分解",
+      "累加",
+      "整數",
+      "試除",
+      "2000000000",
+      "質因數和",
+      "6",
+      "2",
+      "3",
+      "8",
+      "2+2+2",
+      "19",
+      "32",
+      "10",
+      "質數判斷",
+      "因數計算",
+      "乘法分解",
+      "和"
+    ]
+  },
+  "Q7": {
+    "type": "問答題",
+    "points": 10,
+    "question_category": "語言題",
+    "answer_type": "文字答案",
+    "scoring_config": {
+      "question_type": "語言題",
+      "weights": {
+        "behavioral": 0,
+        "syntax": 1.0,
+        "specification": 1.0
+      }
+    },
+    "behavioral_layer": {
+      "focus": "",
+      "total_criteria": 0,
+      "criteria": {}
+    },
+    "keywords": [
+      "參數傳遞",
+      "值型別",
+      "int",
+      "副本",
+      "方法呼叫",
+      "MessageBox.Show",
+      "字符串連接",
+      "變數範圍",
+      "作用域",
+      "99",
+      "0",
+      "number",
+      "myValue",
+      "ChangeMe",
+      "The value of number is 99",
+      "In ChangeMe, myValue is 0",
+      "執行流程",
+      "訊息框順序",
+      "變數值改變",
+      "參數值傳遞"
+    ]
+  },
+  "Q8": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "隨機排列1到N的算法邏輯是否正確？",
+      "total_criteria": 3,
+      "criteria": {
+        "①": "是否正確理解隨機排列的目的（產生1到N的排列，每個數字恰好一次）",
+        "②": "是否使用合適的隨機算法（如Fisher-Yates洗牌算法）",
+        "③": "是否正確保證結果包含1到N所有整數，每個恰好一次"
+      }
+    },
+    "keywords": [
+      "隨機",
+      "排列",
+      "1到N",
+      "洗牌",
+      "Random",
+      "陣列",
+      "迴圈",
+      "輸出",
+      "空格分隔",
+      "3",
+      "2 1 3",
+      "N",
+      "整數序列",
+      "Fisher-Yates",
+      "隨機交換",
+      "排列組合",
+      "Random.Next",
+      "2147483647",
+      "整數輸入"
+    ]
+  },
+  "Q9": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "規則題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "規則題",
+      "weights": {
+        "behavioral": 0.6,
+        "syntax": 0.4,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "陣列複製邏輯是否正確完整？",
+      "total_criteria": 2,
+      "criteria": {
+        "①": "是否正確理解陣列複製的目的（深度複製數據元素）",
+        "②": "是否正確遍歷並複製所有100個元素到目標陣列"
+      }
+    },
+    "keywords": [
+      "陣列",
+      "複製",
+      "numberArray1",
+      "numberArray2",
+      "100",
+      "元素",
+      "迴圈",
+      "for",
+      "index",
+      "陣列存取",
+      "陣列賦值",
+      "陣列複製",
+      "[index]",
+      "i<100",
+      "i++",
+      "深度複製"
+    ]
+  },
+  "Q10": {
+    "type": "撰寫程式",
+    "points": 10,
+    "question_category": "邏輯題",
+    "answer_type": "代碼",
+    "scoring_config": {
+      "question_type": "邏輯題",
+      "weights": {
+        "behavioral": 0.7,
+        "syntax": 0.3,
+        "specification": "乘法係數"
+      }
+    },
+    "behavioral_layer": {
+      "focus": "字符串分割和逐行輸出邏輯是否正確？",
+      "total_criteria": 2,
+      "criteria": {
+        "①": "是否正確理解字符串分割的邏輯（按空格分隔水果名稱）",
+        "②": "是否正確將分割後的每個水果逐一輸出（每行一個）"
+      }
+    },
+    "keywords": [
+      "字符串分割",
+      "Split",
+      "空格分隔",
+      "水果",
+      "輸入",
+      "輸出",
+      "每行一個",
+      "迴圈",
+      "Apple",
+      "Orange",
+      "Banana",
+      "Pineapple",
+      "n個",
+      "1到30",
+      "菜單",
+      "foreach",
+      "Console.WriteLine",
+      "字符串陣列"
+    ]
+  }
+}
